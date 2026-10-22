@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olvida Todo - Revista Digital</title>
+  
+  <!-- Fuentes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- BOTÓN FLOTANTE SUPERIOR IZQUIERDO -->
+  <button class="top-left-btn" onclick="abrirSeccion('Diseño')">
+    <img src="mi_icono.png" alt="Icono" class="btn-icon" onerror="this.style.display='none'">
+    <span>Diseño y Desarrollo de Software</span>
+  </button>
+
+  <!-- BARRA DE PROGRESO DE LECTURA -->
+  <div id="progress-bar"></div>
+
+  <!-- NAVEGACIÓN SUPERIOR -->
+  <nav class="navbar">
+    <div class="nav-brand">Olvida Tod</div>
+    <div class="nav-actions">
+      <button class="login-btn" onclick="openModal()">Iniciar Sesión</button>
+      <button class="theme-toggle-btn" id="themeToggle">🌙</button>
+    </div>
+  </nav>
+
+  <!-- CABECERA DE LA REVISTA -->
+  <header class="header">
+    <div class="top-bar">
+      <span>Edición Especial de Investigación</span>
+      <span>Octubre 2026</span>
+    </div>
+    <h1 class="magazine-title">Olvida Todo</h1>
+    <p class="tagline">Análisis exhaustivo sobre explotación infantil, abandono y exclusión social</p>
+    
+    <!-- PESTAÑAS DE NAVEGACIÓN -->
+    <div class="tabs-nav">
+      <button class="tab-btn active" onclick="abrirSeccion('inicio')">Inicio</button>
+      <button class="tab-btn" onclick="abrirSeccion('soluciones')">Soluciones</button>
+      <button class="tab-btn" onclick="abrirSeccion('juego')">Juego QR</button>
+      <button class="tab-btn" onclick="abrirSeccion('videos')">Videos</button>
+      <button class="tab-btn" onclick="abrirSeccion('galeria')">Ilustraciones</button>
+      <button class="tab-btn" onclick="abrirSeccion('contacto')">Contacto</button>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL DE LA REVISTA -->
+  <main class="container">
+
+    <!-- 1. SECCIÓN INICIO (PRINCIPAL) -->
+    <section id="inicio" class="section-content active">
+      <div class="card" style="text-align: center; padding: 2.5rem 1.5rem;">
+        <span class="badge">Bienvenido a la Revista</span>
+        <h2 style="font-family: var(--font-serif); font-size: 1.8rem; margin: 1rem 0; color: var(--text-main);">
+          Investigación, Concientización y Acción Social
+        </h2>
+        <p style="color: var(--text-muted); max-width: 700px; margin: 0 auto 1.5rem; line-height: 1.7;">
+          Te damos la bienvenida a <strong>Olvida Todo</strong>, Bienvenidos a "Olvida Todo", un espacio digital de investigación y concientización social concebido para visibilizar, analizar y confrontar las problemáticas más urgentes y desatendidas que vulneran los derechos de la infancia: la explotación sexual infantil, el abandono institucional y la exclusión social.
+Somos un equipo académico comprometido con el rigor periodístico y la defensa de los derechos humanos. Nuestro propósito fundamental no es solo exponer estadísticas o documentar realidades dolorosas, sino romper el muro de la indiferencia colectiva. A través de este portal, buscamos convertir la información en una herramienta activa de cambio, ofreciendo análisis profundos sobre el impacto oculto del abuso, los riesgos de la ciberseguridad y las fallas estructurales de nuestra sociedad en la protección de los menores.
+
+        </p>
+        
+      </div>
+
+      
+    </section>
+
+
+    <section id="Diseño" class="section-content">
+  <h2 class="section-heading">Diseño Y Desarollo De Software</h2>
+  
+  <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo1.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+      
+     <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo2.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p> 
+  </div>
+      
+     <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo3.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+      
+     <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo4.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+      
+      <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo5.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+
+      <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo6.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+
+      <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo7.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+      
+      <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo8.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+
+      <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo9.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+
+      <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo10.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+
+      <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo11.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div> 
+
+      <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo12.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div> 
+
+      <div class="card">
+    <h3></h3>
+    <img src="OlvidaTodo13.png" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p>
+  </div>
+
+      <div class="card">
+    <h3></h3>
+    <img src="Tabla de encuestas.jpg" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <p></p> 
+  </div>
+</section>
+   
+
+    <!-- 3. SECCIÓN SOLUCIONES -->
+    <section id="soluciones" class="section-content">
+      <h2 class="section-heading">Estrategias de Solución y Mitigación</h2>
+      
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Buscar propuesta de solución..." onkeyup="searchSolutions()">
+      </div>
+
+      <div class="grid-layout">
+        <div class="card solution-card">
+          <h3>1. Fortalecimiento Institucional:</h3>
+          <p>Implementación de fiscalías especializadas en delitos contra la infancia con presupuestos garantizados y capacitación continua para equipos multidisciplinarios.</p>
+        </div>
+        
+        <div class="card solution-card">
+          <h3>2. Educación y Prevención Digital:</h3>
+          <p>Incorporar en las mallas curriculares escolares programas obligatorios de ciudadanía digital, seguridad en las redes y reconocimiento temprano del grooming.</p>
+        </div>
+        
+        <div class="card solution-card">
+          <h3>3. Redes Comunitarias de Protección:</h3>
+          <p>Creación de comités locales de alerta vecinal y centros de acogida inmediata para brindar refugio y apoyo psicológico a menores en riesgo.</p>
+        </div>
+      
+        <div class="card solution-card">
+          <h3>4. Educación sobre los derechos de la infancia:</h3>
+          <p>Enseñar a los niños y adolescentes que tienen derecho a vivir sin violencia, explotación, abuso ni mucho menos la discriminación.</p>
+        </div> 
+        
+        <div class="card solution-card">
+          <h3>5. Comunicación familiar:</h3>
+          <p>Promover espacios de confianza para que los niños puedan expresar preocupaciones y pedir ayuda sin miedo a ser culpados.</p>
+        </div>
+        
+        <div class="card solution-card">
+          <h3>6. Programas de prevención escolar: </h3>
+          <p>Realizar talleres educativos sobre autocuidado, relaciones seguras, reconocimiento de riegos y búsqueda de ayuda.</p>
+        </div>
+      </>
+    </section>
+
+    <!-- 4. SECCIÓN JUEGO QR -->
+    <section id="juego" class="section-content">
+      <h2 class="section-heading">Sección Interactiva: Juego Educativo</h2>
+      <div class="card qr-container">
+        <h3>Accede a nuestro Juego Didáctico</h3>
+        <p>Escanea el código QR desde tu dispositivo o utiliza el botón inferior para cargar la imagen de tu código QR interactivo.</p>
+        <div class="qr-box" id="qrDisplay">
+          <img src="QR.jpeg" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+        </div>
+        <label for="qrUpload" class="custom-file-upload">Cargar Imagen de mi Código QR</label>
+        <input type="file" id="qrUpload" accept="image/*" onchange="previewQR(event)">
+      </div>
+    </section>
+
+    <!-- 5. SECCIÓN VIDEOS -->
+    <section id="videos" class="section-content">
+      <h2 class="section-heading">Material Audiovisual Documental</h2>
+     <div class="card">
+  <h3>Video Informativo</h3>
+  <p>Registro audiovisual sobre la explotación sexual infantil.</p>
+
+  <!-- Reproductor de video local -->
+  <video controls width="100%" style="border-radius: 8px; margin-top: 1rem; background-color: #000;">
+    <source src="Explotación sexual.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de este video.
+  </video> 
+    </div>
+
+  <div class="credits-box" style="margin-top: 1rem;">
+    <p><strong>Créditos:</strong>Fundación Más Vida. Canal De Youtube </p>
+  </div>
+    
+    <div class="card">
+  <h3>Video Informativo</h3>
+  <p>Registro audiovisual sobre la exclusión social.</p>
+
+  <!-- Reproductor de video local -->
+  <video controls width="100%" style="border-radius: 8px; margin-top: 1rem; background-color: #000;">
+    <source src="Exclusión social.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de este video.
+  </video> 
+
+  <div class="credits-box" style="margin-top: 1rem;">
+    <p><strong>Créditos:</strong>Fundación Más Vida. Canal De Youtube </p>
+  </div> 
+    </div>
+    </section>
+
+    <!-- 6. SECCIÓN GALERÍA -->
+    <section id="galeria" class="section-content">
+      <h2 class="section-heading">Galería e Ilustraciones de Concientización</h2>
+      <div class="grid-layout">
+        <div class="card">
+          <div class="gallery-img img-1"></div>
+          <div style="padding: 1rem;">
+            <h4>Visibilidad Social</h4>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Ilustración sobre el impacto del abandono comunitario.</p>
+            <button class="like-btn" onclick="addLike('like-g1')">❤️ <span id="like-g1">45</span> Me gusta</button>
+          </div>
+        </div>
+        <div class="card">
+            <img src="ilustración1.jpeg" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+          <h4>Protección Digital.</h4>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Análisis gráfico de las amenazas en redes sociales.</p>
+            <button class="like-btn" onclick="addLike('like-g2')">❤️ <span id="like-g2">78</span> Me gusta</button>
+        </div>
+        </>
+
+          <div class="card">
+    <h3></h3>
+    <img src="ilustración2.jpeg" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <h4>Protección De La infancia. </h4>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Representa el derecho de todos los niños, niñas y adolescentes a crecer en ambientes seguros, libres de violencia y explotación.</p>
+            <button class="like-btn" onclick="addLike('like-g3')">❤️ <span id="like-g3">28</span> Me gusta</button>
+  </div>
+
+          <div class="card">
+    <h3></h3>
+    <img src="ilustración3.jpeg" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+            <h4>La exclusión social . </h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">Muestra cómo la discriminación, la desigualdad y la falta de oportunidades pueden dificultar la participación de algunos niños en la sociedad .</p>
+            <button class="like-btn" onclick="addLike('like-g4')">❤️ <span id="like-g4">21</span> Me gusta</button>
+  </div>
+
+
+          <div class="card">
+    <h3></h3>
+    <img src="ilustración4.jpeg" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <h4>Unidos por una infancia segura. </h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">Simboliza la importancia de la solidaridad, el respeto y el compromiso de la comunidad con los derechos de la infancia .</p>
+            <button class="like-btn" onclick="addLike('like-g5')">❤️ <span id="like-g5">36</span> Me gusta</button>
+  </div>
+
+          <div class="card">
+    <h3></h3>
+    <img src="ilustración5.jpeg" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <h4>Educación para la prevención . </h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">Representa el papel de los colegios y educadores en la prevención de la violencia y en la enseñanza de los derechos infantiles.</p>
+            <button class="like-btn" onclick="addLike('like-g6')">❤️ <span id="like-g6">87</span> Me gusta</button>
+  </div>
+
+          <div class="card">
+    <h3></h3>
+    <img src="ilustración6.jpeg" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <h4>Una red de protección. </h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">Simboliza la colaboración entre familias, instituciones, profesionales y comunidades para prevenir la explotación y proteger a quienes necesitan ayuda.</p>
+            <button class="like-btn" onclick="addLike('like-g7')">❤️ <span id="like-g7">14</span> Me gusta</button>
+  </div>
+
+        <div class="card">
+    <h3></h3>
+    <img src="ilustración7.jpeg" alt="Fuentes Primarias" style="width: 100%; height: auto; border-radius: 8px; display: block; margin-top: 1rem;">
+    <h4>Un futuro con oportunidades. </h4>
+    <p style="font-size: 0.85rem; color: var(--text-muted);">Expresa la importancia de garantizar educación, bienestar, inclusión social y oportunidades para todos los niños y adolescentes.</p>
+            <button class="like-btn" onclick="addLike('like-g8')">❤️ <span id="like-g8">11</span> Me gusta</button>
+  </div>
+        
+    </section>
+
+    <!-- 7. SECCIÓN CONTACTO -->
+    <section id="contacto" class="section-content">
+      <h2 class="section-heading">Contacto y Canales de Orientación</h2>
+      <div class="card">
+        <form onsubmit="handleContactSubmit(event)">
+          <div class="form-group">
+            <label for="contactName">Nombre o Seudónimo:</label>
+            <input type="text" id="contactName" required placeholder="Tu nombre...">
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Mensaje o Consulta:</label>
+            <textarea id="contactMessage" rows="5" required placeholder="Escribe tu mensaje..."></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MODAL DE LOGIN -->
+  <div class="modal-overlay" id="loginModal">
+    <div class="modal-card">
+      <h2>Iniciar Sesión</h2>
+      <p style="font-size:0.85rem; color:#555; margin-bottom:1.2rem;">Accede con tu cuenta para interactuar con la revista.</p>
+      <button class="social-login-btn google-btn" onclick="simulateLogin('Google')">🌐 Continuar con Google</button>
+      <button class="social-login-btn facebook-btn" onclick="simulateLogin('Facebook')">📘 Continuar con Facebook</button>
+      <button class="close-modal" onclick="closeModal()">Cancelar / Cerrar</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>©️ "2026 Olvida Todo". Proyecto de Investigación, Diseño y Desarrollo de Software.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
